@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/presentation/index.html",
+    "href": "posts/presentation/index.html",
+    "title": "Quarto presentation",
+    "section": "",
+    "text": "With Quarto, you can turn Quarto markdown (qmd) files into documents like articles or reports, websites such as blogs, and different kinds of presentations including sales pitches.\nLike other digital deliverables created by Quarto, presentations can be rendered as HTML, viewed in a web browser, and saved as a PDF using the print dialog.\nBefore saving, we should make sure the Layout is set to Landscape.\n\nA PDF presentation should have only one slide per page, but putting multiple slides on one page may be convenient if we want to read the slides instead of presenting them.\n\nFor best results, I suggest following the PDF export instructions in the RevealJS documentation: https://revealjs.com/pdf-export/.\nPDF files are ubiquitous and it is good to know that you can generate one with nothing more than a web browser whenever necessary, but HTML files can do many things that PDF files simply cannot.\nThe HTML presentation below demonstrates all of the features described in its slides, many of which are not active in the PDF presentation beneath it.\n\n\n\n\n\n\nInstead of embedding your presentation in a webpage as shown above, you can view it in its own browser tab in HTML or PDF format."
+  },
+  {
+    "objectID": "posts/manuscript/index.html",
+    "href": "posts/manuscript/index.html",
+    "title": "Quarto manuscript",
+    "section": "",
+    "text": "For over a decade, I have been promoting the idea that software development skills can be useful for everyone — not just software engineers. With recent advances in artificial intelligence, software development is no longer solely the domain of highly trained engineers.\nOne of the best ways to get started crafting software is to create your own website.\nThe tools I used to create websites have improved greatly over time and as a result I would port my personal website to a new system every few years.\nAfter a few years of building websites with Quarto, I am certain that I will not have to switch to another system ever again.\nThe best way to learn about Quarto is to read the official documentation, but the fastest way to get started with Quarto is to use a GitHub template repository (template repo) that already has everything you need.\nI created a template repo for each of the three main kinds of Quarto websites:\n\nManuscript: https://github.com/maptv/art\nBook: https://github.com/maptv/book\nBlog: https://github.com/maptv/USERNAME.github.io\n\nYou can see examples of manuscripts, books, and blogs in the Quarto Gallery.\nI consider manuscript websites to be the simplest of the three, because the final product can consist of a single webpage, as shown by the example in the documentation.\nIn contrast, the expectation is that there will be multiple chapters in a book and multiple posts in a weblog (blog).\nThe common thread across all of these types of websites is that the content of each webpage is stored in at least one Quarto markdown (qmd) file.\nTherefore, a Quarto manuscript website can store all of its content in a single qmd file, whereas Quarto books and blogs are designed to have multiple qmd files.\nBetween books and blogs, I consider books to be simpler, because all of the chapters in a book can be stored together in the top level directory (root), whereas the default structure of a Quarto blog includes a posts directory that contains a subdirectory for each post.\nRegardless of what you want to build with Quarto, you may want to follow the steps below to create a Quarto manuscript so that you can get familiar with the steps needed to publish and update a Quarto website before tackling the greater complexity of a book or a blog.\nAfter you feel comfortable with a Quarto manuscript, try to repeat the steps below with my book template repo: https://github.com/maptv/book.\nThe steps below should also work for my blog template repo: https://github.com/maptv/USERNAME.github.io, but I prepared separate blog setup instructions which also explain\n\nwhy the template repository is called USERNAME.github.io and\nhow to embed a Quarto presentation into a webpage like a Quarto blog post.\n\n\nSetup\n\nGo to the manuscript or book template repo I prepared\nClick “Use this template” and then “Create new repository”\n\n\n\nEnter a repository name and click “Create repository”\n\n\n\nCopy the web address (url)\nGo to https://posit.cloud\nClick “New Project” and then “New Project from Git Repository”\n\n\n\nPaste the repo url you copied in Step 3 and click “OK”\nIn the Files tab of the bottom right pane, select git.R\nEdit the user.name and user.email values in git.R and click the diskette icon to save\nWhen you see a yellow banner above git.R, click “Install” and wait for installation to complete in the background\nClick “Source” in the upper right corner of the upper left pane (the one that is displaying git.R)\nIf you already have a Personal Access Token (PAT), close the new browser tab that opened. Otherwise, enter a note, click “Generate Token”, and click the copy button.\n\n\n\nUpdating\n\nMake at least one change to at least one file, such as the edits to git.R above\nClick the “Git” tab in the top right pane of Posit Cloud\nClick the check box next to the file you changed\nClick “Commit” to open a popup window (modal)\nEnter a commit message in the upper right corner of the modal and click “Commit”\nClose all modals and click the green up arrow labeled “Push” to push your commit to GitHub\n\n\n\nPublishing\n\nPush at least one commit to your repo using the instructions above so that the credentials manager has your username and PAT\nCopy the command below, paste it into the terminal tab in the lower left pane, and press Enter or Return\n\nquarto publish gh-pages\nIf all goes according to plan, you will never again need to run quarto publish gh-pages again for this repo because — thanks to .github/workflows/publish.yml — your site will be built and published whenever you update your site by pushing at least one commit to your repo using the “Updating” instructions above."
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#hello-there",
+    "href": "posts/presentation/demo/index.html#hello-there",
+    "title": "Quarto Presentations",
+    "section": "Hello, There",
+    "text": "Hello, There\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\nPresenting code and LaTeX equations\nIncluding computations in slide output\nImage, video, and iframe backgrounds\nFancy transitions and animations\nActivating scroll view\n\n…and much more"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#pretty-code",
+    "href": "posts/presentation/demo/index.html#pretty-code",
+    "title": "Quarto Presentations",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}\n\nLearn more: Syntax Highlighting"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#code-animations",
+    "href": "posts/presentation/demo/index.html#code-animations",
+    "title": "Quarto Presentations",
+    "section": "Code Animations",
+    "text": "Code Animations\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n    barplot(WorldPhones[,input$region]*1000, \n            main=input$region,\n            ylab=\"Number of Telephones\",\n            xlab=\"Year\")\n  })\n}\n\nLearn more: Code Animations"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#line-highlighting",
+    "href": "posts/presentation/demo/index.html#line-highlighting",
+    "title": "Quarto Presentations",
+    "section": "Line Highlighting",
+    "text": "Line Highlighting\n\nHighlight specific lines for emphasis\nIncrementally highlight additional lines\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\nLearn more: Line Highlighting"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#executable-code",
+    "href": "posts/presentation/demo/index.html#executable-code",
+    "title": "Quarto Presentations",
+    "section": "Executable Code",
+    "text": "Executable Code\n\nlibrary(ggplot2)\nggplot(mtcars, aes(hp, mpg, color = am)) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"loess\")\n\n\n\nLearn more: Executable Code"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#latex-equations",
+    "href": "posts/presentation/demo/index.html#latex-equations",
+    "title": "Quarto Presentations",
+    "section": "LaTeX Equations",
+    "text": "LaTeX Equations\nMathJax rendering of equations to HTML\n\n\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]\n\n\nLearn more: LaTeX Equations"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#column-layout",
+    "href": "posts/presentation/demo/index.html#column-layout",
+    "title": "Quarto Presentations",
+    "section": "Column Layout",
+    "text": "Column Layout\nArrange content into columns of varying widths:\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n2.620\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n2.875\n\n\nDatsun 710\n22.8\n4\n108\n93\n2.320\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.215\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.440\n\n\nValiant\n18.1\n6\n225\n105\n3.460\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#incremental-lists",
+    "href": "posts/presentation/demo/index.html#incremental-lists",
+    "title": "Quarto Presentations",
+    "section": "Incremental Lists",
+    "text": "Incremental Lists\nLists can optionally be displayed incrementally:\n\nFirst item\nSecond item\nThird item\n\n\n Insert pauses to make other types of content display incrementally.\n\nLearn more: Incremental Lists"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#fragments",
+    "href": "posts/presentation/demo/index.html#fragments",
+    "title": "Quarto Presentations",
+    "section": "Fragments",
+    "text": "Fragments\nIncremental text display and animation with fragments:\n\n\nFade in\n\n\nSlide up while fading in\n\n\nSlide left while fading in\n\n\nFade in then semi out\n\n\n\nStrike\n\n\nHighlight red\n\n\nLearn more: Fragments"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#slide-backgrounds",
+    "href": "posts/presentation/demo/index.html#slide-backgrounds",
+    "title": "Quarto Presentations",
+    "section": "Slide Backgrounds",
+    "text": "Slide Backgrounds\nSet the background attribute on a slide to change the background color (all CSS color formats are supported).\nDifferent background transitions are available via the background-transition option.\n\nLearn more: Slide Backgrounds"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#media-backgrounds",
+    "href": "posts/presentation/demo/index.html#media-backgrounds",
+    "title": "Quarto Presentations",
+    "section": "Media Backgrounds",
+    "text": "Media Backgrounds\nYou can also use the following as a slide background:\n\nAn image: background-image\nA video: background-video\nAn iframe: background-iframe\n\n\nLearn more: Media Backgrounds"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#absolute-position",
+    "href": "posts/presentation/demo/index.html#absolute-position",
+    "title": "Quarto Presentations",
+    "section": "Absolute Position",
+    "text": "Absolute Position\nPosition images or other elements at precise locations\n\n\n\n\nLearn more: Absolute Position"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#auto-animate",
+    "href": "posts/presentation/demo/index.html#auto-animate",
+    "title": "Quarto Presentations",
+    "section": "Auto-Animate",
+    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#auto-animate-1",
+    "href": "posts/presentation/demo/index.html#auto-animate-1",
+    "title": "Quarto Presentations",
+    "section": "Auto-Animate",
+    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#slide-transitions",
+    "href": "posts/presentation/demo/index.html#slide-transitions",
+    "title": "Quarto Presentations",
+    "section": "Slide Transitions",
+    "text": "Slide Transitions\nThe next few slides will transition using the slide transition\n\n\n\n\n\n\n\nTransition\nDescription\n\n\n\n\nnone\nNo transition (default, switch instantly)\n\n\nfade\nCross fade\n\n\nslide\nSlide horizontally\n\n\nconvex\nSlide at a convex angle\n\n\nconcave\nSlide at a concave angle\n\n\nzoom\nScale the incoming slide so it grows in from the center of the screen.\n\n\n\n\nLearn more: Slide Transitions"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#tabsets",
+    "href": "posts/presentation/demo/index.html#tabsets",
+    "title": "Quarto Presentations",
+    "section": "Tabsets",
+    "text": "Tabsets\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21.0\n6\n160.0\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160.0\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\nDatsun 710\n22.8\n4\n108.0\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\nHornet 4 Drive\n21.4\n6\n258.0\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\nHornet Sportabout\n18.7\n8\n360.0\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2\n\n\nValiant\n18.1\n6\n225.0\n105\n2.76\n3.460\n20.22\n1\n0\n3\n1\n\n\nDuster 360\n14.3\n8\n360.0\n245\n3.21\n3.570\n15.84\n0\n0\n3\n4\n\n\nMerc 240D\n24.4\n4\n146.7\n62\n3.69\n3.190\n20.00\n1\n0\n4\n2\n\n\nMerc 230\n22.8\n4\n140.8\n95\n3.92\n3.150\n22.90\n1\n0\n4\n2\n\n\nMerc 280\n19.2\n6\n167.6\n123\n3.92\n3.440\n18.30\n1\n0\n4\n4\n\n\nMerc 280C\n17.8\n6\n167.6\n123\n3.92\n3.440\n18.90\n1\n0\n4\n4\n\n\nMerc 450SE\n16.4\n8\n275.8\n180\n3.07\n4.070\n17.40\n0\n0\n3\n3\n\n\nMerc 450SL\n17.3\n8\n275.8\n180\n3.07\n3.730\n17.60\n0\n0\n3\n3\n\n\nMerc 450SLC\n15.2\n8\n275.8\n180\n3.07\n3.780\n18.00\n0\n0\n3\n3\n\n\nCadillac Fleetwood\n10.4\n8\n472.0\n205\n2.93\n5.250\n17.98\n0\n0\n3\n4\n\n\nLincoln Continental\n10.4\n8\n460.0\n215\n3.00\n5.424\n17.82\n0\n0\n3\n4\n\n\nChrysler Imperial\n14.7\n8\n440.0\n230\n3.23\n5.345\n17.42\n0\n0\n3\n4\n\n\nFiat 128\n32.4\n4\n78.7\n66\n4.08\n2.200\n19.47\n1\n1\n4\n1\n\n\nHonda Civic\n30.4\n4\n75.7\n52\n4.93\n1.615\n18.52\n1\n1\n4\n2\n\n\nToyota Corolla\n33.9\n4\n71.1\n65\n4.22\n1.835\n19.90\n1\n1\n4\n1\n\n\nToyota Corona\n21.5\n4\n120.1\n97\n3.70\n2.465\n20.01\n1\n0\n3\n1\n\n\nDodge Challenger\n15.5\n8\n318.0\n150\n2.76\n3.520\n16.87\n0\n0\n3\n2\n\n\nAMC Javelin\n15.2\n8\n304.0\n150\n3.15\n3.435\n17.30\n0\n0\n3\n2\n\n\nCamaro Z28\n13.3\n8\n350.0\n245\n3.73\n3.840\n15.41\n0\n0\n3\n4\n\n\nPontiac Firebird\n19.2\n8\n400.0\n175\n3.08\n3.845\n17.05\n0\n0\n3\n2\n\n\nFiat X1-9\n27.3\n4\n79.0\n66\n4.08\n1.935\n18.90\n1\n1\n4\n1\n\n\nPorsche 914-2\n26.0\n4\n120.3\n91\n4.43\n2.140\n16.70\n0\n1\n5\n2\n\n\nLotus Europa\n30.4\n4\n95.1\n113\n3.77\n1.513\n16.90\n1\n1\n5\n2\n\n\nFord Pantera L\n15.8\n8\n351.0\n264\n4.22\n3.170\n14.50\n0\n1\n5\n4\n\n\nFerrari Dino\n19.7\n6\n145.0\n175\n3.62\n2.770\n15.50\n0\n1\n5\n6\n\n\nMaserati Bora\n15.0\n8\n301.0\n335\n3.54\n3.570\n14.60\n0\n1\n5\n8\n\n\nVolvo 142E\n21.4\n4\n121.0\n109\n4.11\n2.780\n18.60\n1\n1\n4\n2\n\n\n\n\n\n\n\n\n\nLearn more: Tabsets"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#interactive-slides",
+    "href": "posts/presentation/demo/index.html#interactive-slides",
+    "title": "Quarto Presentations",
+    "section": "Interactive Slides",
+    "text": "Interactive Slides\nInclude Jupyter widgets and htmlwidgets in your presentations\n\n\n\n\n\n\n\nLearn more: Jupyter widgets, htmlwidgets"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#interactive-slides-1",
+    "href": "posts/presentation/demo/index.html#interactive-slides-1",
+    "title": "Quarto Presentations",
+    "section": "Interactive Slides",
+    "text": "Interactive Slides\nTurn presentations into applications with Observable and Shiny. Use component layout to position inputs and outputs.\n\n\nviewof talentWeight = Inputs.range([-2, 2], { value: 0.7, step: 0.01, label: \"talent weight\" })\nviewof looksWeight = Inputs.range([-2, 2], { value: 0.7, step: 0.01, label: \"looks weight\" })\nviewof minimum = Inputs.range([-2, 2], { value: 1, step: 0.01, label: \"min fame\" })\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimport { plotActors } from './actors.js';\nplotActors(actors, talentWeight, looksWeight, minimum)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Observable, Shiny, Component Layout"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#preview-links",
+    "href": "posts/presentation/demo/index.html#preview-links",
+    "title": "Quarto Presentations",
+    "section": "Preview Links",
+    "text": "Preview Links\nNavigate to hyperlinks without disrupting the flow of your presentation.\nUse the preview-links option to open links in an iframe on top of your slides. Try clicking the link below for a demonstration:\n\nMatplotlib: Visualization with Python\n\n\nLearn more: Preview Links"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#themes",
+    "href": "posts/presentation/demo/index.html#themes",
+    "title": "Quarto Presentations",
+    "section": "Themes",
+    "text": "Themes\n10 Built-in Themes (or create your own)\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Themes"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#easy-navigation",
+    "href": "posts/presentation/demo/index.html#easy-navigation",
+    "title": "Quarto Presentations",
+    "section": "Easy Navigation",
+    "text": "Easy Navigation\n\nQuickly jump to other parts of your presentation\n\n\n\n\n\n\n\nToggle the slide menu with the menu button (bottom left of slide) to go to other slides and access presentation tools.\n\n\n\nYou can also press mm to toggle the menu open and closed.\nYou can also press gg to toggle ‘Jump To Slide’ modal box to quickly go to one of your slide using its number or id.\n\nLearn more: Navigation / Jump To Slide"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#jump-to-slide",
+    "href": "posts/presentation/demo/index.html#jump-to-slide",
+    "title": "Quarto Presentations",
+    "section": "Jump To Slide",
+    "text": "Jump To Slide\n\nQuickly jump to other parts of your presentation"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#chalkboard",
+    "href": "posts/presentation/demo/index.html#chalkboard",
+    "title": "Quarto Presentations",
+    "section": "Chalkboard",
+    "text": "Chalkboard\n\nFree form drawing and slide annotations\n\n\n\n\n\n\n\nUse the chalkboard button at the bottom left of the slide to toggle the chalkboard.\n\n\n\n\n\n\n\n\n\nUse the notes canvas button at the bottom left of the slide to toggle drawing on top of the current slide.\n\n\n\nYou can also press bb to toggle the chalkboard or cc to toggle the notes canvas.\n\nLearn more: Chalkboard"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#point-of-view",
+    "href": "posts/presentation/demo/index.html#point-of-view",
+    "title": "Quarto Presentations",
+    "section": "Point of View",
+    "text": "Point of View\npress oo to toggle overview mode:\n\nHold down the AltAlt and click on any element to zoom towards it—try it now on this slide.\n\nLearn more: Overview Mode, Slide Zoom"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#speaker-view",
+    "href": "posts/presentation/demo/index.html#speaker-view",
+    "title": "Quarto Presentations",
+    "section": "Speaker View",
+    "text": "Speaker View\npress ss (or use the tools in presentation menu ) to open speaker view\n\n\n\n\n\n\nLearn more: Speaker View"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#scroll-view",
+    "href": "posts/presentation/demo/index.html#scroll-view",
+    "title": "Quarto Presentations",
+    "section": "Scroll View",
+    "text": "Scroll View\nPress rr (or use the tools in presentation menu ) to open scroll view\nTry it now on this slide — You’ll see a scroll bar on the right and you can scroll down the presentation using your mouse.\nScroll view behavior can be configured using scroll-view configuration.\n\nLearn more: Scroll View"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#authoring-tools",
+    "href": "posts/presentation/demo/index.html#authoring-tools",
+    "title": "Quarto Presentations",
+    "section": "Authoring Tools",
+    "text": "Authoring Tools\nLive side-by-side preview for any notebook or text editor including Jupyter and VS Code\n\n\n\n\n\n\n\nLearn more: Jupyter, VS Code, Text Editors"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#authoring-tools-1",
+    "href": "posts/presentation/demo/index.html#authoring-tools-1",
+    "title": "Quarto Presentations",
+    "section": "Authoring Tools",
+    "text": "Authoring Tools\nRStudio includes an integrated presentation preview pane\n\n\nLearn more: RStudio"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#and-more",
+    "href": "posts/presentation/demo/index.html#and-more",
+    "title": "Quarto Presentations",
+    "section": "And More…",
+    "text": "And More…\n\nTouch optimized (presentations look great on mobile, swipe to navigate slides)\nFooter & Logo (optionally specify custom footer per-slide or hide global footer)\nAuto-Slide (step through slides automatically, without any user input)\nMultiplex (allows your audience to follow the slides of the presentation you are controlling on their own phone, tablet or laptop).\n\n\nLearn more: Quarto Presentations"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Quarto manuscript\n\n\n\n\n\n\n\n\n1775887882\n\n\nMartin Laptev\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto presentation\n\n\n\n\n\n\n\n\n1775887882\n\n\nMartin Laptev\n\n\n\n\n\nNo matching items\nAttributions\n\nArtwork from “Hello, Quarto” keynote by Mine Çetinkaya-Rundel and Julia Stewart Lowndes, presented at RStudio Conference 2022. Illustrated by Allison Horst.\n\n\n\nA schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto.\n\n\n\n\n\nTwo penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo “moon” in the sky, while the other penguin looks on.\n\n\nFor more from Allison, see her website and GitHub."
+  }
+]
