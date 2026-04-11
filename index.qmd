@@ -1,15 +1,28 @@
 ---
-title: "tut"
+title: "Tutorials"
+date: ""
 listing:
-  contents: posts
+  contents: 
+    - posts
+    - "!posts/presentation/demo"
   feed: true
   sort: "date desc"
   type: default
-  categories: true
   sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-banner: true
+format:
+  html:
+    include-after-body: list.html
 ---
 
+#### Attributions {.appendix}
 
+Artwork from ["Hello, Quarto"](https://mine.quarto.pub/hello-quarto/) keynote by [Mine Çetinkaya-Rundel](https://mine-cr.com/) and [Julia Stewart Lowndes](https://jules32.github.io/), presented at RStudio Conference 2022. Illustrated by [Allison Horst](https://allisonhorst.com).
+
+[![A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto.](posts/manuscript/images/quar.png)](https://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote)
+
+[![Two penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo "moon" in the sky, while the other penguin looks on.](posts/presentation/images/pres.png)](https://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote)
+
+For more from Allison, see her [website](https://allisonhorst.com) and [GitHub](https://github.com/allisonhorst).

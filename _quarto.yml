@@ -3,15 +3,16 @@ project:
 
 website:
   description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "tut"
+  site-url: https://USERNAME.github.io # you must change this appropriately for RSS feeds to work properly
+  title: "SITENAME"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/USERNAME
+        
+date-format: X
+date: last-modified
 format:
   html:
     theme:
