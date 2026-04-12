@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2026+041</p>
+        <p class="date">2026+042</p>
       </div>
     </div>
     
@@ -164,8 +164,44 @@ ul.task-list li input[type="checkbox"] {
 <iframe class="slide-deck" src="demo/demo.pdf" width="100%"></iframe>
 </div>
 <p>Instead of embedding your presentation in a webpage as shown above, you can view it in its own browser tab in <a href="demo/">HTML</a> or <a href="demo/demo.pdf">PDF</a> format.</p>
+<p>To edit a presentation, you can modify the plain text of the associated qmd file in a <a href="https://en.wikipedia.org/wiki/Text_editor">text editor</a> or work with a <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> version via the <a href="https://docs.posit.co/ide/user/ide/guide/documents/visual-editor.html">Visual Mode</a> in RStudio, VSCode, or Positron.</p>
+<p>This repo is set up to use the <a href="https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html">quarto-revealjs-editable</a> extension by <a href="https://emilhvitfeldt.github.io/about">Emil Hvitfeldt</a> which provides an editing experience that is similar to PowerPoint or Google Slides.</p>
+<p>After following the instructions below, try previewing the slides by clicking “Render” in RStudio or Posit Cloud, or by running <code>quarto preview</code> in the terminal, and then try adding, moving, resizing, and rotating text, arrows, and images as described the <a href="https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html#interacting-with-elements">documentation</a> of the extension.</p>
+<section id="presentation-and-tutorial-setup-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="presentation-and-tutorial-setup-instructions">Presentation and tutorial setup instructions</h2>
+<p>0. Go to the repo I prepared: <a href="https://github.com/maptv/USERNAME.github.io" class="uri">https://github.com/maptv/USERNAME.github.io</a></p>
+<p>1. Copy “USERNAME.github.io”</p>
+<p>2. Click “Use this template” and then “Create new repository”</p>
+<p>3. Paste “USERNAME.github.io” in as the repository name</p>
+<p>4. Copy your GitHub username and paste it in place of “USERNAME” in “USERNAME.github.io”</p>
+<p>5. Click “Create repository”</p>
+<p>6. Copy the web address (url)</p>
+<p>7. Go to <a href="https://posit.cloud/">https://posit.cloud</a></p>
+<p>8. Click “New Project” and then “New Project from Git Repository”</p>
+<p>9. Paste the repo url you copied in Step 3 and click “OK”</p>
+<p>10. In the Files tab of the bottom right pane, select git.R</p>
+<p>11. Edit the user.name and user.email values in git.R and click the diskette icon to save</p>
+<p>12. When you see a yellow banner above git.R, click “Install” and wait for installation to complete in the background</p>
+<p>13. Click “Source” in the upper right corner of the upper left pane (the one that is displaying git.R)</p>
+<p>14. If you already have a Personal Access Token (PAT), close the new browser tab that opened. Otherwise, enter a note, click “Generate Token”, and click the copy button.</p>
+<section id="updating" class="level3">
+<h3 class="anchored" data-anchor-id="updating">Updating</h3>
+<p>15. Make at least one change to at least one file, such as the edits to git.R above</p>
+<p>16. Click the “Git” tab in the top right pane of Posit Cloud</p>
+<p>17. Click the <a href="https://en.wikipedia.org/wiki/Checkbox#:~:text=a%20graphical%20widget%20that%20allows%20the%20user%20to%20make%20a%20binary%20choice">check box</a> next to the file you changed</p>
+<p>18. Click “Commit” to open a popup window (<a href="https://en.wikipedia.org/wiki/Modal_window#:~:text=a%20graphical%20control%20element%20subordinate%20to%20an%20application%27s%20main%20window">modal</a>)</p>
+<p>19. Enter a commit message in the upper right corner of the modal and click “Commit”</p>
+<p>20. Close all modals and click the green up arrow labeled “Push” to push your commit to GitHub</p>
+<p><strong>Publishing</strong></p>
+<p>21. Push at least one commit to your repo using the instructions above so that the credentials manager has your username and PAT</p>
+<p>22. Copy the command below, paste it into the terminal tab in the lower left pane, and press Enter or Return</p>
+<pre><code>quarto publish gh-pages</code></pre>
+<p><br>
+</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
