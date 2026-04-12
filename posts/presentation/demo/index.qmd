@@ -13,6 +13,10 @@ format:
     include-after-body: date.html
 resources:
   - demo.pdf
+revealjs-plugins:
+  - editable
+filters:
+  - editable
 ---
 
 ## Hello, There
@@ -113,7 +117,7 @@ Learn more: [Executable Code](https://quarto.org/docs/presentations/revealjs/#ex
 
 [MathJax](https://www.mathjax.org/) rendering of equations to HTML
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 ``` tex
 \begin{gather*}
@@ -131,22 +135,18 @@ a_{21}& =b_{21}&
 :::
 
 ::: {.column width="60%"}
-```{=tex}
 \begin{gather*}
 a_1=b_1+c_1\\
 a_2=b_2+c_2-d_2+e_2
 \end{gather*}
-```
-```{=tex}
 \begin{align}
 a_{11}& =b_{11}&
   a_{12}& =b_{12}\\
 a_{21}& =b_{21}&
   a_{22}& =b_{22}+c_{22}
 \end{align}
-```
 :::
-:::
+:::::
 
 ::: footer
 Learn more: [LaTeX Equations](https://quarto.org/docs/authoring/markdown-basics.html#equations)
@@ -156,7 +156,7 @@ Learn more: [LaTeX Equations](https://quarto.org/docs/authoring/markdown-basics.
 
 Arrange content into columns of varying widths:
 
-::: columns
+:::::: columns
 ::: {.column width="35%"}
 #### Motor Trend Car Road Tests
 
@@ -171,7 +171,7 @@ The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel
 knitr::kable(head(mtcars)[,c("mpg",	"cyl", "disp", "hp", "wt")])
 ```
 :::
-:::
+::::::
 
 ::: footer
 Learn more: [Multiple Columns](https://quarto.org/docs/presentations/revealjs/#multiple-columns)
@@ -273,7 +273,7 @@ Learn more: [Absolute Position](https://quarto.org/docs/presentations/revealjs/a
 
 Automatically animate matching elements across slides with Auto-Animate.
 
-::: r-hstack
+:::::: r-hstack
 ::: {data-id="box1" auto-animate-delay="0" style="background: #2780e3; width: 200px; height: 150px; margin: 10px;"}
 :::
 
@@ -282,7 +282,7 @@ Automatically animate matching elements across slides with Auto-Animate.
 
 ::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 200px; height: 150px; margin: 10px;"}
 :::
-:::
+::::::
 
 ::: footer
 Learn more: [Auto-Animate](https://quarto.org/docs/presentations/revealjs/advanced.html#auto-animate)
@@ -292,7 +292,7 @@ Learn more: [Auto-Animate](https://quarto.org/docs/presentations/revealjs/advanc
 
 Automatically animate matching elements across slides with Auto-Animate.
 
-::: r-stack
+:::::: r-stack
 ::: {data-id="box1" style="background: #2780e3; width: 350px; height: 350px; border-radius: 200px;"}
 :::
 
@@ -301,7 +301,7 @@ Automatically animate matching elements across slides with Auto-Animate.
 
 ::: {data-id="box3" style="background: #e83e8c; width: 150px; height: 150px; border-radius: 200px;"}
 :::
-:::
+::::::
 
 ::: footer
 Learn more: [Auto-Animate](https://quarto.org/docs/presentations/revealjs/advanced.html#auto-animate)
@@ -311,14 +311,14 @@ Learn more: [Auto-Animate](https://quarto.org/docs/presentations/revealjs/advanc
 
 The next few slides will transition using the `slide` transition
 
-| Transition | Description                                                            |
-|------------|------------------------------------------------------------------------|
-| `none`     | No transition (default, switch instantly)                              |
-| `fade`     | Cross fade                                                             |
-| `slide`    | Slide horizontally                                                     |
-| `convex`   | Slide at a convex angle                                                |
-| `concave`  | Slide at a concave angle                                               |
-| `zoom`     | Scale the incoming slide so it grows in from the center of the screen. |
+| Transition | Description |
+|----|----|
+| `none` | No transition (default, switch instantly) |
+| `fade` | Cross fade |
+| `slide` | Slide horizontally |
+| `convex` | Slide at a convex angle |
+| `concave` | Slide at a concave angle |
+| `zoom` | Scale the incoming slide so it grows in from the center of the screen. |
 
 ::: footer
 Learn more: [Slide Transitions](https://quarto.org/docs/presentations/revealjs/advanced.html#slide-transitions)
@@ -498,7 +498,7 @@ Press {{< kbd r >}} (or use the tools in presentation menu ![](../images/navigat
 
 Try it now on this slide --- You'll see a scroll bar on the right and you can scroll down the presentation using your mouse.
 
-Scroll view behavior can be configured using `scroll-view` configuration. 
+Scroll view behavior can be configured using `scroll-view` configuration.
 
 ::: footer
 Learn more: [Scroll View](https://quarto.org/docs/presentations/revealjs/presenting.html#scroll-view)
@@ -508,7 +508,7 @@ Learn more: [Scroll View](https://quarto.org/docs/presentations/revealjs/present
 
 Live side-by-side preview for any notebook or text editor including Jupyter and VS Code
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/jupyter-edit.png){.border .border-thick}
 :::
@@ -516,7 +516,7 @@ Live side-by-side preview for any notebook or text editor including Jupyter and 
 ::: {.column width="50%"}
 ![](images/jupyter-preview.png){.border .border-thick}
 :::
-:::
+:::::
 
 ::: footer
 Learn more: [Jupyter](https://quarto.org/docs/tools/jupyter-lab.html), [VS Code](https://quarto.org/docs/tools/vscode.html), [Text Editors](https://quarto.org/docs/tools/text-editors.html)
