@@ -1,5 +1,7 @@
 # Blog and presentation setup instructions
 
+## GitHub repo
+
 0\. Go to the repo I prepared: <https://github.com/maptv/USERNAME.github.io>
 
 1\. Copy “USERNAME.github.io”
@@ -16,6 +18,8 @@
 
 6\. Copy the web address (url)
 
+## Posit Cloud project
+
 7\. Go to [https://posit.cloud](https://posit.cloud/)
 
 8\. Click “New Project” and then “New Project from Git Repository”
@@ -23,6 +27,8 @@
 9\. Paste the repo url you copied in Step 3 and click “OK”
 
 <img width="659" height="254" alt="image" src="https://github.com/user-attachments/assets/23a40a7e-d897-4aad-8fd7-234ddb3a3776" />
+
+## Git setup
 
 10\. In the Files tab of the bottom right pane, select git.R
 
@@ -36,7 +42,7 @@
 
 14\. If you already have a Personal Access Token (PAT), close the new browser tab that opened. Otherwise, enter a note, click “Generate Token”, and click the copy button.
 
-### Updating
+## Updating
 
 15\. Make at least one change to at least one file, such as the edits to git.R above
 
@@ -50,12 +56,13 @@
 
 20\. Close all modals and click the green up arrow labeled "Push" to push your commit to GitHub
 
-**Publishing**
+<img width="946" height="343" alt="image" src="https://github.com/user-attachments/assets/92db4bfd-1828-48a7-a0f7-bf74a07ae189" />
+
+## Publishing
 
 21\. Push at least one commit to your repo using the instructions above so that the credentials manager has your username and PAT
 
-22\. Copy the command below, paste it into the terminal tab in the lower left pane, and press Enter or Return
+22\. Click on the "publi.sh" file in the "File" tab of the bottom right pane, click "Run" in the upper right corner of the upper left pane, then type "y" in the terminal, press Enter or Return
 
-```         
-quarto publish gh-pages
-```
+<img width="802" height="205" alt="image" src="https://github.com/user-attachments/assets/32e42f7a-0818-4193-86e4-142221e0b02a" />
+
