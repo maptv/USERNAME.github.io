@@ -10,7 +10,7 @@
 
 4\. Copy your GitHub username and paste it in place of “USERNAME” in “USERNAME.github.io”
 
-<img width="447" height="395" alt="image" src="https://github.com/user-attachments/assets/3d8f177d-69c3-46c6-9f63-770b64fcab0d" />
+<img width="442" height="395" alt="image" src="https://github.com/user-attachments/assets/dafe6b6b-0194-4b44-9e97-b9116a039540" />
 
 5\. Click “Create repository”
 
@@ -22,11 +22,15 @@
 
 9\. Paste the repo url you copied in Step 3 and click “OK”
 
+<img width="659" height="254" alt="image" src="https://github.com/user-attachments/assets/23a40a7e-d897-4aad-8fd7-234ddb3a3776" />
+
 10\. In the Files tab of the bottom right pane, select git.R
 
 11\. Edit the user.name and user.email values in git.R and click the diskette icon to save
 
 12\. When you see a yellow banner above git.R, click "Install" and wait for installation to complete in the background
+
+<img width="512" height="251" alt="image" src="https://github.com/user-attachments/assets/d9571374-4b31-48ab-9edb-9cd7ff4eaa27" />
 
 13\. Click “Source” in the upper right corner of the upper left pane (the one that is displaying git.R)
 
