@@ -70,8 +70,16 @@
 
 After the first time you complete Step 22, you can click "Run Script" instead of "Run" and publish with the need to confirm by entering "y" in the terminal.
 
+<img width="506" height="95" alt="image" src="https://github.com/user-attachments/assets/41814bb7-8c85-468b-a004-02c3b52deac7" />
+
 You may prefer to show the preview of your presentation in the Viewer tab of the lower right pane instead of a separate window.
 
 <img width="729" height="244" alt="image" src="https://github.com/user-attachments/assets/5cfa5359-710b-477a-9cac-8865cf115fa4" />
 
+You can always click "Present in an external browser" if you want to dedicate a whole browser tab to the preview.
+
 <img width="949" height="475" alt="image" src="https://github.com/user-attachments/assets/5dd3082a-fea8-49d7-85be-2076b3f34a1a" />
+
+The template repo I created has the [quarto-revealjs-editable](https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html) extension by [Emil Hvitfeldt](https://emilhvitfeldt.github.io/about) already installed so that you can make edits like in Powerpoint or Google Slides.
+
+Depending on what you add to your site, you may need to install additional dependencies. 
