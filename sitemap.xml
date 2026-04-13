@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://USERNAME.github.io/about.html</loc>
-    <lastmod>2026-04-11T06:11:22.060Z</lastmod>
+    <lastmod>2026-04-13T23:35:17.333Z</lastmod>
   </url>
   <url>
     <loc>https://USERNAME.github.io/posts/presentation/index.html</loc>
-    <lastmod>2026-04-12T13:58:22.962Z</lastmod>
+    <lastmod>2026-04-13T23:35:17.401Z</lastmod>
   </url>
   <url>
     <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-movement.html</loc>
-    <lastmod>2026-04-11T06:11:22.390Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/absolute.html</loc>
-    <lastmod>2026-04-11T06:11:22.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments-nested.html</loc>
-    <lastmod>2026-04-11T06:11:22.392Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-code.html</loc>
-    <lastmod>2026-04-11T06:11:22.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate.html</loc>
-    <lastmod>2026-04-11T06:11:22.390Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/manuscript/index.html</loc>
-    <lastmod>2026-04-11T06:11:22.102Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments.html</loc>
-    <lastmod>2026-04-11T06:11:22.392Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-stack.html</loc>
-    <lastmod>2026-04-11T06:11:22.390Z</lastmod>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
   </url>
   <url>
     <loc>https://USERNAME.github.io/posts/presentation/demo/mini/zoom.html</loc>
-    <lastmod>2026-04-11T06:11:22.403Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments-custom.html</loc>
-    <lastmod>2026-04-11T06:11:22.391Z</lastmod>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
   </url>
   <url>
     <loc>https://USERNAME.github.io/posts/presentation/demo/mini/stack.html</loc>
-    <lastmod>2026-04-11T06:11:22.402Z</lastmod>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
   </url>
   <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/index.html</loc>
-    <lastmod>2026-04-12T13:44:41.691Z</lastmod>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-code.html</loc>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate.html</loc>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
   </url>
   <url>
     <loc>https://USERNAME.github.io/index.html</loc>
-    <lastmod>2026-04-11T06:11:22.060Z</lastmod>
+    <lastmod>2026-04-13T23:35:17.333Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/index.html</loc>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments.html</loc>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-stack.html</loc>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments-nested.html</loc>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/absolute.html</loc>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments-custom.html</loc>
+    <lastmod>2026-04-13T23:35:17.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/manuscript/index.html</loc>
+    <lastmod>2026-04-13T23:35:17.345Z</lastmod>
   </url>
 </urlset>
