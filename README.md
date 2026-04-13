@@ -78,7 +78,7 @@ You may prefer to show the preview of your presentation in the Viewer tab of the
 
 You can always click "Present in an external browser" if you want to dedicate a whole browser tab to the preview.
 
-<img width="949" height="475" alt="image" src="https://github.com/user-attachments/assets/5dd3082a-fea8-49d7-85be-2076b3f34a1a" />
+<img width="800" height="137" alt="image" src="https://github.com/user-attachments/assets/bec8d6c8-043a-4ca8-a163-871be8d55ccb" />
 
 The template repo I created has the [quarto-revealjs-editable](https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html) extension by [Emil Hvitfeldt](https://emilhvitfeldt.github.io/about) already installed so that you can make edits like in Powerpoint or Google Slides.
 
