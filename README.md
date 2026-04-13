@@ -72,5 +72,6 @@ After the first time you complete Step 22, you can click "Run Script" instead of
 
 You may prefer to show the preview of your presentation in the Viewer tab of the lower right pane instead of a separate window.
 
-<img width="731" height="175" alt="image" src="https://github.com/user-attachments/assets/e17557d5-3ef8-4ba8-a0c7-54eed703652b" />
+<img width="729" height="244" alt="image" src="https://github.com/user-attachments/assets/5cfa5359-710b-477a-9cac-8865cf115fa4" />
+
 <img width="949" height="475" alt="image" src="https://github.com/user-attachments/assets/5dd3082a-fea8-49d7-85be-2076b3f34a1a" />
