@@ -82,6 +82,6 @@ You can always click "Present in an external browser" if you want to dedicate a 
 
 The template repo I created has the [quarto-revealjs-editable](https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html) extension by [Emil Hvitfeldt](https://emilhvitfeldt.github.io/about) already installed so that you can make edits like in Powerpoint or Google Slides.
 
-Depending on what you add to your site, you may need to install additional dependencies. 
-
 <img width="950" height="436" alt="image" src="https://github.com/user-attachments/assets/2e17d8b9-48b2-48e4-84e8-7880b6278baf" />
+
+Depending on what you add to your site, you may need to install additional dependencies in Posit Cloud and modify the `.github/workflows/publish.yml` file so that you do not need to run `publi.sh` each time you want to update your site. 
