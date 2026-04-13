@@ -66,3 +66,10 @@
 
 <img width="802" height="205" alt="image" src="https://github.com/user-attachments/assets/32e42f7a-0818-4193-86e4-142221e0b02a" />
 
+## Notes
+
+After the first time you complete Step 22, you can click "Run Script" instead of "Run" and publish with the need to confirm by entering "y" in the terminal.
+
+You may prefer to show the preview of your presentation in the Viewer tab of the lower right pane instead of a separate window.
+
+<img width="731" height="175" alt="image" src="https://github.com/user-attachments/assets/e17557d5-3ef8-4ba8-a0c7-54eed703652b" />
